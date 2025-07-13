@@ -2,7 +2,7 @@
 
 This contains a minimal rust application that lets the first LED of the LED matrix blink.
 
-## Install requirement
+## Install requirements
 ```
 rustup target add thumbv7em-none-eabihf
 cargo binstall probe-rs-tools

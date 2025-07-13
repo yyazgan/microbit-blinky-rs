@@ -5,7 +5,7 @@ This contains a minimal rust application that lets the first LED of the LED matr
 ## Install requirements
 ```
 rustup target add thumbv7em-none-eabihf
-cargo binstall probe-rs-tools
+curl --proto '=https' --tlsv1.2 -LsSf https://github.com/probe-rs/probe-rs/releases/latest/download/probe-rs-tools-installer.sh | sh
 ```
 
 ## Flashing the microcontroller
